@@ -1,7 +1,7 @@
 import unittest
 import utils
 
-class TestAvailableModelUtilFunctions(unittest.TestCase):
+class TestGetEnvVar(unittest.TestCase):
     """This test suite tests the functions that give access to the config file"""
 
     def test_existed_var(self):
